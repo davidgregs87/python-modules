@@ -1,3 +1,11 @@
+from turtle import *
 
-with open("append_after_100.txt","r") as f:
-    print(f.read())
+color('red', 'yellow')
+begin_fill()
+while True:
+    forward(3.0)
+    
+    right(2)
+    
+end_fill()
+print(done())
