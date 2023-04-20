@@ -181,7 +181,7 @@ class Triangle:
         self.base = base
         self.height = height
 
-        if base < 0 or height < 0:
+        if base <= 0 and height <= 0:
             raise ValueError ("both attributes must be > 0")
         if type(base) != int or type(height) != int:
             raise TypeError ("both attributes muust be of type integer")
